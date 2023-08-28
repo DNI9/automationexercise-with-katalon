@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>label_Receive special offers from our partners</name>
+   <name>radio_Receive special offers from our partners</name>
    <tag></tag>
    <elementGuidId>78ed4483-4e08-456d-a744-326fc7ef55c8</elementGuidId>
    <selectorCollection>
@@ -11,7 +11,6 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

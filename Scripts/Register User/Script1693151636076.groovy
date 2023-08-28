@@ -23,57 +23,53 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://automationexercise.com/')
 
-WebUI.click(findTestObject('Object Repository/Page_Automation Exercise/a_Signup  Login'))
+WebUI.click(findTestObject('Object Repository/HomePage/a_Signup  Login'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Automation Exercise - Signup  Login/input_New User Signup_name'), 'Test')
+WebUI.setText(findTestObject('Object Repository/SignupAndLoginPage/SignupSection/input_name'), 'Test')
 
-WebUI.setText(findTestObject('Object Repository/Page_Automation Exercise - Signup  Login/input_New User Signup_email'), 
-    'test123127389712@test.com')
+WebUI.setText(findTestObject('Object Repository/SignupAndLoginPage/SignupSection/input_email'), 'test12312738971@test.com')
 
-WebUI.click(findTestObject('Object Repository/Page_Automation Exercise - Signup  Login/button_Signup'))
+WebUI.click(findTestObject('Object Repository/SignupAndLoginPage/SignupSection/button_Signup'))
 
-WebUI.click(findTestObject('Object Repository/Page_Automation Exercise - Signup/label_Mr'))
+WebUI.click(findTestObject('Object Repository/SignupPage/AccountInformationSection/title_Mr'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Automation Exercise - Signup/input__password'), 'RUP1i1I91Y1hyIPhPWM4AlrgLLfCQ3BM')
+WebUI.setEncryptedText(findTestObject('Object Repository/SignupPage/AccountInformationSection/input__password'), 'RUP1i1I91Y1hyIPhPWM4AlrgLLfCQ3BM')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Automation Exercise - Signup/select_Day123456789101112131415161718192021_40ab5b'), 
-    '15', true)
+WebUI.selectOptionByValue(findTestObject('SignupPage/AccountInformationSection/select_Dob_Day'), '15', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Automation Exercise - Signup/select_MonthJanuaryFebruaryMarchAprilMayJun_aa9ebb'), 
-    '5', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/SignupPage/AccountInformationSection/select_Dob_Month'), '5', 
+    true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Automation Exercise - Signup/select_Year20212020201920182017201620152014_f874ed'), 
-    '1999', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/SignupPage/AccountInformationSection/select_Dob_Year'), '1999', 
+    true)
 
-WebUI.click(findTestObject('Object Repository/Page_Automation Exercise - Signup/label_Receive special offers from our partners'))
+WebUI.click(findTestObject('Object Repository/SignupPage/AccountInformationSection/radio_Receive special offers from our partners'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Automation Exercise - Signup/input__first_name'), 'Test Nameasdasd')
+WebUI.setText(findTestObject('Object Repository/SignupPage/AddressInformationSection/input__first_name'), 'Test Nameasdasd')
 
-WebUI.setText(findTestObject('Object Repository/Page_Automation Exercise - Signup/input__last_name'), 'asdasdasd')
+WebUI.setText(findTestObject('Object Repository/SignupPage/AddressInformationSection/input__last_name'), 'asdasdasd')
 
-WebUI.setText(findTestObject('Object Repository/Page_Automation Exercise - Signup/input_(Street address, P.O. Box, Company na_957d3e'), 
-    'asdasdasdasd, asdasdasd')
+WebUI.setText(findTestObject('SignupPage/AddressInformationSection/input__address'), 'asdasdasdasd, asdasdasd')
 
-WebUI.setText(findTestObject('Object Repository/Page_Automation Exercise - Signup/input__state'), 'asdasdas')
+WebUI.setText(findTestObject('Object Repository/SignupPage/AddressInformationSection/input__state'), 'asdasdas')
 
-WebUI.setText(findTestObject('Object Repository/Page_Automation Exercise - Signup/input__city'), 'asdas')
+WebUI.setText(findTestObject('Object Repository/SignupPage/AddressInformationSection/input__city'), 'asdas')
 
-WebUI.setText(findTestObject('Object Repository/Page_Automation Exercise - Signup/input__zipcode'), '123456')
+WebUI.setText(findTestObject('Object Repository/SignupPage/AddressInformationSection/input__zipcode'), '123456')
 
-WebUI.setText(findTestObject('Object Repository/Page_Automation Exercise - Signup/input__mobile_number'), '1234567890')
+WebUI.setText(findTestObject('Object Repository/SignupPage/AddressInformationSection/input__mobile_number'), '1234567890')
 
-WebUI.click(findTestObject('Object Repository/Page_Automation Exercise - Signup/button_Create Account'))
+WebUI.click(findTestObject('Object Repository/SignupPage/AddressInformationSection/button_create_account'))
 
-WebUI.click(findTestObject('Object Repository/Page_Automation Exercise - Account Created/a_Continue'))
+WebUI.click(findTestObject('Object Repository/AccountCreatedPage/continue_link'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Automation Exercise/b_Test'), 'Test')
+WebUI.verifyElementText(findTestObject('Object Repository/HomePage/b_Test'), 'Test')
 
-WebUI.click(findTestObject('Object Repository/Page_Automation Exercise/a_Delete Account'))
+WebUI.click(findTestObject('Object Repository/HomePage/a_Delete Account'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Automation Exercise - Account Created/b_Account Deleted'), 
-    "Account Deleted!".toUpperCase())
+WebUI.verifyElementText(findTestObject('Object Repository/AccountCreatedPage/b_Account Deleted'), 'Account Deleted!'.toUpperCase())
 
-WebUI.click(findTestObject('Object Repository/Page_Automation Exercise - Account Created/a_Continue'))
+WebUI.click(findTestObject('Object Repository/AccountCreatedPage/continue_link'))
 
 WebUI.closeBrowser()
 

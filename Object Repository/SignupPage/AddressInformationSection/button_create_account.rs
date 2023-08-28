@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Create Account</name>
+   <name>button_create_account</name>
    <tag></tag>
    <elementGuidId>464e7273-3440-488b-aad6-e6743196e407</elementGuidId>
    <selectorCollection>

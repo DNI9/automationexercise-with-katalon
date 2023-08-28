@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_Day123456789101112131415161718192021_40ab5b</name>
+   <name>select_Dob_Day</name>
    <tag></tag>
    <elementGuidId>bcb72cde-a652-46b6-97a1-13afd1225fec</elementGuidId>
    <selectorCollection>

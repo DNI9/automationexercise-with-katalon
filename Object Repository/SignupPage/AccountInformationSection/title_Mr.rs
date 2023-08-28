@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>label_Mr</name>
+   <name>title_Mr</name>
    <tag></tag>
    <elementGuidId>2521da96-2073-4080-a84a-fc38b64de66f</elementGuidId>
    <selectorCollection>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Continue</name>
+   <name>continue_link</name>
    <tag></tag>
    <elementGuidId>fe443378-925a-49ff-a28a-23a829dc8bed</elementGuidId>
    <selectorCollection>
