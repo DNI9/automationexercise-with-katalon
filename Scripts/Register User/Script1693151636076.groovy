@@ -17,13 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.openBrowser(GlobalVariable.URL)
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('https://automationexercise.com/')
-
-WebUI.click(findTestObject('Object Repository/HomePage/a_Signup  Login'))
+WebUI.click(findTestObject('Object Repository/Common/Navigation/a_Signup  Login'))
 
 WebUI.setText(findTestObject('Object Repository/SignupAndLoginPage/SignupSection/input_name'), 'Test')
 
@@ -65,7 +63,7 @@ WebUI.click(findTestObject('Object Repository/AccountCreatedPage/continue_link')
 
 WebUI.verifyElementText(findTestObject('Object Repository/HomePage/b_Test'), 'Test')
 
-WebUI.click(findTestObject('Object Repository/HomePage/a_Delete Account'))
+WebUI.click(findTestObject('Object Repository/Common/Navigation/a_Delete Account'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/AccountCreatedPage/b_Account Deleted'), 'Account Deleted!'.toUpperCase())
 
