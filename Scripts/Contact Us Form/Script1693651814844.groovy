@@ -40,6 +40,8 @@ WebUI.acceptAlert()
 
 WebUI.verifyElementText(findTestObject('Contact Us Page/success_msg'), 'Success! Your details have been submitted successfully.')
 
+WebUI.takeScreenshot('contact_us_screenshot.png')
+
 WebUI.click(findTestObject('Common/Navigation/a_home'))
 
 WebUI.closeBrowser()
