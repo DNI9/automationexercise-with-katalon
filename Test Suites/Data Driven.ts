@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Data Driven</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>61df3691-eb38-450f-b270-83280231727f</testSuiteGuid>
+   <testCaseLink>
+      <guid>fcdd2230-0cdb-45b7-8199-434b13f37d00</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <iterationNameVariable>
+         <defaultValue>'john.doe@test.com'</defaultValue>
+         <description></description>
+         <id>b2742ede-fc7d-4b9e-a384-1ef45a2ff4d3</id>
+         <masked>false</masked>
+         <name>tcEmail</name>
+      </iterationNameVariable>
+      <testCaseId>Test Cases/Contact Us Form Data Driven</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>3b1a3760-fb27-4ebe-b10f-74161e721fde</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Userdata</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>3b1a3760-fb27-4ebe-b10f-74161e721fde</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Name</value>
+         <variableId>e973a84f-d620-465f-97ad-f1d70962fd84</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>3b1a3760-fb27-4ebe-b10f-74161e721fde</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Email</value>
+         <variableId>b2742ede-fc7d-4b9e-a384-1ef45a2ff4d3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>3b1a3760-fb27-4ebe-b10f-74161e721fde</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Subject</value>
+         <variableId>42e42321-0955-41af-a676-7792ed3ddc97</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>3b1a3760-fb27-4ebe-b10f-74161e721fde</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Message</value>
+         <variableId>25444aa7-24d9-4ed3-a3f5-f6f7e10df2d4</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

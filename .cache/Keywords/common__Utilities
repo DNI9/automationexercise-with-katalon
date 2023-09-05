@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "63D3AEE98B014F54F8DCAC610DF582F7",
+  "keywordClasses": [
+    {
+      "name": "common.Utilities",
+      "keywordMethods": [
+        {
+          "name": "openBrowser",
+          "parameters": [],
+          "javadoc": "/**\n\t * Opens browser with default profile URL and maximizes the browser window.\n\t */"
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}
